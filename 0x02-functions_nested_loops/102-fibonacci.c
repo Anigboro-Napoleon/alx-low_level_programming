@@ -23,7 +23,7 @@ int main(void)
 		}
 		else
 		{
-			putchar(", ");
+			printf(", ");
 		}
 	}
 	return (0);
