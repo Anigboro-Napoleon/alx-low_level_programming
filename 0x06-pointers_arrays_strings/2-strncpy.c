@@ -2,7 +2,7 @@
 
 /**
  * _strncpy - copies n bytes of src to the dest string
- * @dest: string to copy to src
+ * @dest: string to copy to
  * @src: string being copied
  * @n: largest number of bytes to copy
  *
@@ -22,7 +22,7 @@ char *_strncpy(char *dest, char *src, int n)
 	while (i < n)
 	{
 		*(dest + i) = '\0';
-		i++
+		i++;
 	}
 	return (dest);
 }
